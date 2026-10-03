@@ -27,7 +27,7 @@ END = "<!-- PROBLEMS:END -->"
 
 SKIP_DIRS = {".git", ".github", ".idea", ".vscode", "Study", "__pycache__", "venv", ".venv"}
 SKIP_FILES = {"template.py", "update_readme.py"}
-PLATFORM_ORDER = ["BOJ", "SWEA", "Programmers"]  # 나머지는 이름순
+PLATFORM_ORDER = ["BOJ", "SWEA", "JUNGOL", "Programmers"]  # 나머지는 이름순
 
 DOCSTRING = re.compile(r'("""|\'\'\')(.*?)\1', re.DOTALL)
 HEADER = re.compile(
